@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berita Terbaru</title>
+  <!-- Link ke Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Link ke file CSS kustom (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar (Menu Navigasi) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Berita</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kategori</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carousel untuk Gambar Berita Utama -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/image2.jpeg" class="d-block w-100" alt="Berita 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Diskon Tarif Listrik 50% Selama 2 Bulan, Beli Token Rp 100.000 Jadi Rp 50.000
+          </h5>
+          <p>Jakarta - Pemerintah mengumumkan kebijakan diskon tarif listrik 50% yang berlaku mulai 1 Januari 2025 selama dua bulan. Menurut Direktur Utama PT PLN (Persero), Darmawan Prasodjo, kebijakan itu dapat mengurangi beban masyarakat dan meningkatkan daya beli.
+            Darmawan menjelaskan mekanisme penerapan tarif diskon listrik untuk pelanggan listrik prabayar dan pascabayar. Untuk listrik token atau prabayar, misalnya harga token Rp 100.000 jadi Rp 50.000.
+            "Tentu saja untuk pelanggan kami yang prabayar kami langsung secara otomatis menyesuaikan bahwa pembelian pulsa yang tadinya Rp 100.000 misalnya untuk kWh tertentu nanti hanya tinggal Rp 50.000, hanya menjadi separuhnya," kata Darmawan dalam Konferensi Pers: Paket Stimulus Ekonomi dan Kesejahteraan Masyarakat, di Kantor Kemenko Perekonomian, Jakarta Pusat, Senin (16/12/2024).
+          </p>
+        </div>
+      </div>
+      <!-- Gambar berita lain bisa ditambahkan di sini -->
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- Konten Berita -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card mb-4">
+          <img src="images/image1.jpeg" class="card-img-top" alt="Berita">
+          <div class="card-body">
+            <h5 class="card-title">Daftar Barang & Jasa yang Kini Kena PPN 12%</h5>
+            <p class="card-text">Jakarta - Pemerintah memastikan Pajak Pertambahan Nilai (PPN) naik jadi 12% tetap berlaku mulai Januari 2025. Beberapa barang dan jasa yang selama ini bebas PPN, namun dianggap mewah, kini masuk dalam daftar kena PPN 12%.
+              Apa saja barang dan jasa tersebut? Langsung klik infografis di atas.
+              (hns/hns)
+              </p>
+            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+          </div>
+        </div>
+        <!-- Berita lainnya bisa ditambahkan di sini -->
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Berita Terpopuler</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Berita Populer 1</a></li>
+              <li><a href="#">Berita Populer 2</a></li>
+              <li><a href="#">Berita Populer 3</a></li>
+              <!-- Daftar berita populer lainnya -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Berita Terbaru. Semua hak cipta dilindungi.</p>
+  </footer>
+
+  <!-- Script untuk Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

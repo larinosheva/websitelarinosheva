@@ -1,0 +1,17 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .card-title {
+    color: #007bff;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+  }
